@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{CEAC9ADE-FE5F-B13A-49E7-E243C449B059}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,20 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Parabox Primitives\Classes\InteractivePrimitive.cs" />
-     <Compile Include="Assets\Parabox Primitives\Classes\InteractivePrimitivesMath.cs" />
-     <Compile Include="Assets\Parabox Primitives\Enum\InteractivePrimitiveEnum.cs" />
-     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCone.cs" />
-     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCube.cs" />
-     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCylinder.cs" />
-     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePlane.cs" />
-     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePrism.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\LightBeamsControlScript.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\LookAtBehaviour.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\LookAtCameraBehaviour.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\RayBehavior.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\RotateBehaviour.cs" />
-     <Compile Include="Assets\Sky FX Pack\Scripts\ScrollBehaviour.cs" />
      <Compile Include="Assets\Spectrum.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -134,7 +120,6 @@
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
-     <None Include="Assets\Parabox Primitives\README.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
@@ -143,7 +128,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>/Users/JeffWu/Documents/Coding/New Unity Project/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>/Users/JeffWu/Documents/VRVisualizer/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
@@ -157,7 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{19347793-E84A-544E-193B-83AFF1B6725A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
