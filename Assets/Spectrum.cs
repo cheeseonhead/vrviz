@@ -25,6 +25,7 @@ public class Spectrum : MonoBehaviour {
 			Vector3 previousScale = cubes [i].transform.localScale;
 			previousScale.y = spectrum [i] * amplificationScale;
 			cubes [i].transform.localScale = previousScale;
+			cubes[i].transform.Rotate (Vector3.up * Time.deltaTime, Space.World);
 		}
 	}
 }
